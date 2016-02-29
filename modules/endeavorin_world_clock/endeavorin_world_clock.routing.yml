@@ -1,0 +1,8 @@
+endeavorin_world_clock.content:
+  path: '/clock'
+  defaults:
+    _controller: '\Drupal\endeavorin_world_clock\Controller\EndeavorinWorldClockController::content'
+    _title: 'World Clock'
+  requirements:
+    _permission: 'access content'
+    

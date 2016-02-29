@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+
+.clock {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	margin: 20px !important;
+	background: url(../images/clockface.jpg);
+	list-style: none;
+	padding: 0 !important;
+	float:left;
+}
+ 
+.sec, .min, .hour {
+	position: absolute;
+	width: 10px;
+	height: 200px;
+	top: 0px;
+	left: 95px;
+}
+ 
+.sec {
+  background: url(../images/sechand.png);
+  z-index: 3;
+}
+    
+.min {
+  background: url(../images/minhand.png);
+  z-index: 2;
+}
+    
+.hour {
+	background: url(../images/hourhand.png);
+	z-index: 1;
+}    
+
+.region-name {
+	position:absolute;
+	width:200px;
+	text-align:center;
+	font-weight:bold;
+	top:200px;
+	left:0;
+}
+
+.meridiem {
+  position:absolute;
+  text-align:center;
+  font-weight:bold;
+  bottom:5px;
+  left:90px;
+  color:#ddd;	
+}

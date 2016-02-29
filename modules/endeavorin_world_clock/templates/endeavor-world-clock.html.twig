@@ -1,0 +1,12 @@
+<div id="clocks">
+  {% for clock in clocks %}
+  <ul class="clock"> 
+    <li class="sec"><input class="sec-value" type="hidden" value="{{ clock.seconds }}"></input></li>
+    <li class="hour"><input class="hour-value" type="hidden" value="{{ clock.hours }}"></input></li>
+    <li class="min"><input class="min-value" type="hidden" value="{{ clock.minutes }}"></input></li>
+    <li class="meridiem">{{ clock.meridiem }}</li>
+    <li class="region-name">{{ clock.name }}</li>
+  </ul>  
+  {% endfor %}
+  <div class="clearfix"></div>
+</div>

@@ -1,0 +1,10 @@
+endeavor-world-clock:
+  version: 1.x
+  css:
+    theme:
+      css/clock.css: {}
+  js:
+    js/clock.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

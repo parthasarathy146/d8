@@ -1,0 +1,6 @@
+name: World Clock Module from Endeavor.in' 
+description: Creates a page showing as many clocks as are required
+package: Custom
+
+type: module
+core: 8.x
